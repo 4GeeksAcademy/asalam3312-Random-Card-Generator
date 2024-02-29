@@ -1,1 +1,14 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.padre {
+  display: flex;
+  border: 1px solid darkblue;
+  border-radius: 5%;
+  height: 700px;
+  width: 500px;
+  font-size: 5rem;
+  margin: auto;
+  box-shadow: 10px 10px 5px hsla(0, 0%, 0%, 0.15);
+}
+#type2 {
+  transform: rotate(180deg);
+}
