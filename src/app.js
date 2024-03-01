@@ -45,5 +45,12 @@ window.onload = function() {
   type2.innerHTML = cardType[randomType];
   type2.appendChild = cardType[randomType];
 
-  /* if () */
+  /* let typeValue = typeElement.innerHTML.trim(); */
+  if (
+    cardType[randomType] === cardType[0] ||
+    cardType[randomType] === cardType[1]
+  ) {
+    type.style.color = "red";
+    type2.style.color = "red";
+  }
 };
