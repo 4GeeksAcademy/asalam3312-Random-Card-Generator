@@ -12,3 +12,6 @@
 #type2 {
   transform: rotate(180deg);
 }
+#shuffle {
+  height: 30px;
+}
